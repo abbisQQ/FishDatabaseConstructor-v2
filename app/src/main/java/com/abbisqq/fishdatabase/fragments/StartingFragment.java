@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 
 import com.abbisqq.fishdatabase.R;
 import com.abbisqq.fishdatabase.data.FishDatabaseContract;
-import com.abbisqq.fishdatabase.fragments.adapter.CustomCursorAdapter;
+import com.abbisqq.fishdatabase.adapter.CustomCursorAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package com.abbisqq.fishdatabase.fragments.adapter;
+package com.abbisqq.fishdatabase.adapter;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -61,7 +61,7 @@ public class CustomCursorAdapter extends RecyclerView.Adapter<CustomCursorAdapte
         holder.infoView.setText(description);
         holder.reviewView.setText(review);
 
-        Picasso.with(mContext).load(imageStringURL).error(R.drawable.ok).into(holder.fishImageView);
+        Picasso.with(mContext).load(imageStringURL).error(R.drawable.ic_unavailable).into(holder.fishImageView);
         Log.v("FISHIMAGE",imageStringURL);
 
 

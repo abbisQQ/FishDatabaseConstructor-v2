@@ -126,7 +126,7 @@ public class FishDatabaseContentProvider extends ContentProvider {
         // Use selections/selectionArgs to filter for this ID
         tasksDeleted = db.delete(TABLE_NAME, "_id=?", new String[]{id});
 
-        
+
         if (tasksDeleted != 0) {
             // A task was deleted, set notification
             getContext().getContentResolver().notifyChange(uri, null);
